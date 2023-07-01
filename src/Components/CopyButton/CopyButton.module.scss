@@ -1,0 +1,21 @@
+$main-color: #77ccff;
+$secondary-color: #3388ff;
+
+.copy_button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+
+  background-color: $main-color;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid #cdcdcd;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

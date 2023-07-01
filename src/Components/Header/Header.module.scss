@@ -1,0 +1,44 @@
+$logo-size: 35px;
+$margin-item: 32px;
+$main-color: #77ccff;
+$secondary-color: #3388ff;
+
+.container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px;
+
+  box-shadow: 0 1px 0 #e2e6e9;
+  background-color: #fff;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    margin-left: $margin-item;
+    color: $main-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.img {
+  margin-left: $margin-item;
+  height: $logo-size;
+  width: $logo-size;
+}
